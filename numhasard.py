@@ -15,14 +15,14 @@ def num_hasard():
     # numero choisi aleatoirement
     numReal = random.randint(1, 100)
     
-    print("\nDevinez le numero mystère entre 1 et 100 | [taper -h ou --help pour l'aide]")   
+    print("\nDevinez le nombre mystère | [taper -h ou --help pour l'aide]")   
     
     # chaque tour de boucle, je soustrais la taille du tentatifs à counter,
     # si counter == 0 j'arrete la boucle et j'affiche le message
     while True:
         rest = counter - len(tentatifs)
         if rest == 0:
-            print(f"Tu as perdu ! le numero mystère est [{numReal}]\n")
+            print(f"Tu as perdu ! le nombre mystère est [{numReal}]\n")
             break
         
         # j'affiche les tentations restantes
@@ -55,7 +55,7 @@ def num_hasard():
         try:
             num = input("-> Numero $ ")
             if num.lower() == "show":
-                print(f"\nLe numero mystère est [{numReal}]\n")
+                print(f"\nLe nombre mystère est [{numReal}]\n")
                 break
             
             elif num.lower() == "stop":
@@ -69,7 +69,7 @@ def num_hasard():
                     break
                     
             elif int(num) == numReal:
-                print(f"\nBravo !\nTu as trouvé, c'est bien [{numReal}] le numero mystère.\n")
+                print(f"\nBravo !\nTu as trouvé, c'est bien [{numReal}] le nombre mystère.\n")
                 break
             
             elif int(num) > numReal:

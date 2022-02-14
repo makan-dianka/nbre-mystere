@@ -1,9 +1,9 @@
  .................................................
   1. Trouvez le nbre mystère parmis les nbres affiché.
 
-  2. Devinez le nombre mystère entre 1 et 100. 
+  2. Le nombre mystère se trouve parmis les nombres affiché.
  
-  3. Le nombre mystère se trouve parmis les nombres affiché.
+  3. Devinez le nombre mystère. 
  
   4. Choissisez un nombre pour voir s'il correspond au nbre mystère. 
 
@@ -12,4 +12,6 @@
   6. Vous pouvez arreter à tout moment en tapant STOP.
 
   7. Vous avez trois 3 tentatifs. 
+
+  8. Pour reexecuter ce fichier taper : python numhasard.py
  ................................................
